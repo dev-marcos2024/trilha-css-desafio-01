@@ -11,7 +11,7 @@ body{
 }
 
 
-/* Cabecario */
+/*! Estilizando Cabecario */
 .banner{
     display: flex;
     flex-flow: column;
@@ -65,6 +65,7 @@ body{
     background-color: #33a9db1f ;
 }
 
+/*! Estilizando o conteudo principal*/
 #course-content{
     display: flex;
     flex-flow: column;
@@ -144,9 +145,19 @@ body{
 }
 
 
+#professional-challenges img {
+    margin: 2rem 0;
+}
 
-
-
+/*! Estilizando o rodape*/
 footer{
     border-top: 1px solid #1572B7;
+    padding: 3.75rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+footer p a{
+  text-decoration: none;
+  color: #33A8DB;
+  font-weight: bold;
 }

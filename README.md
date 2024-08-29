@@ -1,22 +1,71 @@
-# Desafio 01: Criando sua primeira Landing Page com HTML e CSS
+# Trilha de CSS - DIO
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
-as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
+Este é um projeto desenvolvido como parte da Trilha de CSS da DIO (Digital Innovation One). O objetivo deste projeto é criar uma página web responsiva e moderna utilizando HTML e CSS, sem a necessidade de bibliotecas ou frameworks adicionais.
 
-[Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
+## 🎨 Visão Geral
 
-![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+O projeto consiste em uma página web que apresenta a nova Trilha de CSS da DIO, destacando o conteúdo dos módulos oferecidos, além de incentivar os visitantes a se inscreverem na plataforma.
 
-Para você realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a mexer no projeto.
-Dentro da pasta *main*, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas
-realizar a estilização da sua página. É necessário que você faça toda a parte responsável por interligar sua página HTML com suas folhas
-de estilo para que o resultado da estilização funcione.
+## 🛠️ Tecnologias Utilizadas
 
-[Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6) contendo o protótipo do desafio para
-que você possa se basear.
+- **HTML5:** Estrutura da página.
+- **CSS3:** Estilização da página, incluindo uso de variáveis CSS, gradientes e layout flexível.
+- **Google Fonts:** Fonte utilizada no projeto (Roboto).
 
-*Observações: para aplicar os textos em gradiente, utilize a propriedade CSS background-clip, porém, para funcionar em alguns navegadores,
-é necessário utilizar a propriedade -webkit-background-clip: text;*
+## 📁 Estrutura do Projeto
 
-Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch *final*. Basta alterar a branch do projeto
-utilizando o comando `git checkout final` no seu terminal.
+```bash
+├── assets
+│   ├── images
+│   │   ├── banner.png
+│   │   ├── dio-logo.png
+│   │   ├── logo.png
+│   │   └── professional-challenges.png
+│   │   └── woman-code.png
+│   ├── styles
+│   │   ├── reset.css
+│   │   └── style.css
+├── index.html
+└── README.md
+```
+
+- **assets/images:** Contém todas as imagens usadas na página.
+- **assets/styles:** Contém os arquivos de estilo (reset.css e style.css).
+- **index.html:** Arquivo HTML principal da página.
+- **README.md:** Arquivo de documentação do projeto.
+  
+
+## 🌟 Funcionalidades
+
+- **Responsividade:** A página foi desenvolvida para ser visualizada em diferentes dispositivos, com layouts que se adaptam a diferentes tamanhos de tela.
+- **Design Moderno:** Utilização de gradientes, fontes modernas e layouts flexíveis.
+- **Interatividade:** Botão com efeito hover para maior interatividade.
+  
+
+## 🚀 Como Executar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/dev-marcos2024/trilha-css-desafio-01.git
+   ``` 
+   ou simplesmente arraste o arquivo para o navegador.
+
+
+## 📷 Imagens
+
+As imagens utilizadas no projeto são recursos visuais importantes que complementam o conteúdo textual e ajudam a transmitir a mensagem da trilha 
+de CSS.
+
+
+## 📝 Licença
+
+Este projeto é parte de um exercício educacional oferecido pela DIO. Sinta-se à vontade para usá-lo como base para seus próprios projetos.
+
+
+## Autor
+
+Desenvolvido por [Marcos Roberto](git@github.com:dev-marcos2024/trilha-css-desafio-01.git)
+
+
+
+
